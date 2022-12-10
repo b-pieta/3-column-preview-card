@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+body {
+    background-color:hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  main {
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sedan{
+    border-radius: 0.4rem 0.4rem 0 0;
+    background-color: hsl(31, 77%, 52%);
+    padding: 2.5rem 2.5rem 3.75rem 2.8rem;
+  }
+
+  .suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2.5rem 2.5rem 3.75rem 2.8rem;
+  }
+
+  .luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2.5rem 2.5rem 3.75rem 2.8rem;
+    border-radius: 0 0 0.4rem 0.4rem;
+  }
+
+  .type-description{
+    margin-bottom:2.8rem;
+    color:hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.938rem;
+    line-height: 1.6rem;
+  }
+
+  .car-type{
+    margin-top:1.6rem;
+    margin-bottom:1.9rem;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color:hsl(0, 0%, 95%);
+    font-size: 2.5rem;
+
+  }
+  .learn-more1{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.88rem 1.9rem;
+    border-radius: 2.5rem;
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.938rem;
+
+  }
+
+  .learn-more2{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.88rem 1.9rem;
+    border-radius: 2.5rem;
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.938rem;
+
+  }
+
+  .learn-more3{
+    text-decoration:none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.88rem 1.9rem;
+    border-radius: 2.5rem;
+    color:  hsl(179, 100%, 13%); 
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.938rem;
+
+  }
+
+  @media (min-width: 900px){
+    main {
+      flex-direction: row;
+      max-width: 900px;
+    }
+
+    .sedan {
+      border-radius:0.625rem 0 0 0.625rem;
+    
+    }
+
+    .suvs {
+      border-radius:0;
+    }
+
+    .luxury {
+      border-radius:0 0.625rem 0.625rem 0;
+    }
+
+    .type-description{
+      margin-bottom: 7.5rem;
+    }
+
+}
